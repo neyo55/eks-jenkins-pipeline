@@ -2,7 +2,7 @@
 # It sets up a remote backend that stores the state file in an S3 bucket.
 terraform {
   backend "s3" {
-    bucket = "neyo-capstone-remote-backend"
+    bucket = "neyo-capstone-remote-backend-3"
     region = "eu-west-3"
     key = "eks/terraform.tfstate"
   }
